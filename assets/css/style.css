@@ -86,7 +86,7 @@ nav {
 
 /* Main Content */
 main {
-    /* Make main element take up any spare space to push fotter down */
+    /* Make main element take up any spare space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
 }
@@ -113,6 +113,34 @@ main {
 
 #cover-text > h2, #cover-text > h3 {
     color:#ffffff;
+}
+
+
+/* Reasoms Section */
+
+#reasons {
+    margin: 20px auto;
+    width: 90%;
+}
+
+#reasons h2 {
+    font-size: 280%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#benefits-physical > div, #benefits-mental > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
 }
 
 /* Footer */
