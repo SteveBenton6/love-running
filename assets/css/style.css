@@ -215,7 +215,7 @@ main {
 #sign-up {
     background-image: url("../images/signup-image.webp");
     background-size: cover;
-    background: positiom 75%;
+    background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
 }
@@ -346,7 +346,7 @@ main {
     /* Form */
 
     #sign-up {
-        background-position: centre;
+        background-position: center;
         position: relative;
     }
     
