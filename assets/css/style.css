@@ -215,15 +215,13 @@ main {
     }
 
     /* Reasons section */
-    #benefits-physical, 
-    #benefits-mental {
+    #benefits-physical, #benefits-mental {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-    #benefits-physical > div, 
-    #benefits-mental > div {
+    #benefits-physical > div, #benefits-mental > div {
         width: 75%;
     }
 
@@ -231,7 +229,6 @@ main {
         text-align: end;
         align-self: flex-end;
     }
-
 }
 
 /* Media query for laptops and larger (992px and up) */
@@ -249,7 +246,6 @@ main {
     #benefits {
         display: flex;
         flex-direction: row;
-        background-color: yellow;
     }
 
     #benefits > div {
