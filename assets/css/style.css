@@ -200,9 +200,6 @@ h3 {
     line-height: 0;
 }
 
-
-
-
 /* Footer */
 #social-networks {
     text-align: center;
@@ -216,6 +213,15 @@ h3 {
     font-size:150%;
     padding:5%;
     color:#3a3a3a;
+}
+
+
+/* Media query for large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
 }
 
 /* Media query for tablets and larger (768px and up) */
@@ -273,12 +279,22 @@ h3 {
         text-align: end;
         align-self: flex-end;
     }
+
+    /* Gallery Page */
+    #photos {
+        column-count: 3;
+    }
 }
 
 /* Media query for laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+
+    /* Gallery Page */
+    #photos {
+        column-count: 4;
     }
 }
 
