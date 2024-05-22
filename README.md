@@ -4,7 +4,7 @@ Welcome to my Love Running website in GitHub!
 
 This website was built as part of the learning material for Code Institute's Fullstack Web Developer program.
 
-You can check out the website [here.](https://stevebenton6.github.io/love-running/){:target="_blank"}
+You can check out the website [here.](https://stevebenton6.github.io/love-running/)
 
 ## Project Description
 
